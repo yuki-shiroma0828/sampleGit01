@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <title>SAMPLE</title>
+  </head>
+  <header></header>
+  <body>
+    <div class="main_content">
+      <div class="content_wrap">
+        <h2 class="content_ttl">スライダー</h2>
+        <ul class="slide-list js-slider">
+          <li class="slider-items"></li>
+          <li class="slider-items"></li>
+          <li class="slider-items"></li>
+        </ul>
+      </div>
+
+      <div class="content_wrap">
+        <h2 class="content_ttl">アコーディオン</h2>
+        <ul class="accordion">
+          <li class="accordion-items">
+            <div>アコーディオン１</div>
+            <ul class="accordion_inner">
+              <li>コンテンツ１</li>
+              <li>コンテンツ２</li>
+              <li>コンテンツ３</li>
+            </ul>
+          </li>
+          <li class="accordion-items">
+            <div>アコーディオン2</div>
+            <ul class="accordion_inner">
+              <li>コンテンツ１</li>
+              <li>コンテンツ２</li>
+              <li>コンテンツ３</li>
+            </ul>
+          </li>
+          <li class="accordion-items">
+            <div>アコーディオン3</div>
+            <ul class="accordion_inner">
+              <li>コンテンツ１</li>
+              <li>コンテンツ２</li>
+              <li>コンテンツ３</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content_wrap">
+        <h2 class="content_ttl">ツールチップ</h2>
+        <div class="nav">
+          <ul class="tooltip-list">
+            <li>
+              1
+              <p class="tooltips">ツールチップ1</p>
+            </li>
+            <li>
+              2
+              <p class="tooltips">ツールチップ2</p>
+            </li>
+            <li>
+              3
+              <p class="tooltips">ツールチップ3</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul class="trig-btn-wrap">
+        <li class="trig-btn tab_trg" data-tab="1">1</li>
+        <li class="trig-btn tab_trg" data-tab="2">2</li>
+        <li class="trig-btn tab_trg" data-tab="3">3</li>
+      </ul>
+
+      <div class="tab_content is-active" data-tab="1">サンプル1</div>
+      <div class="tab_content" data-tab="2">サンプル2</div>
+      <div class="tab_content" data-tab="3">サンプル3</div>
+
+      <div class="content_wrap">
+        <h2 class="content_ttl">モーダル</h2>
+        <ul class="trig-btn-wrap">
+          <li class="trig-btn js-open-button" data-target="sample-modal1">1</li>
+          <li class="trig-btn js-open-button" data-target="sample-modal2">2</li>
+          <li class="trig-btn js-open-button" data-target="sample-modal3">3</li>
+        </ul>
+        <div
+          class="modal-contact-background js-modal"
+          data-target="sample-modal1"
+        >
+          <div class="modal-contact">
+            <div class="modal-contact-head">見出し</div>
+            <div class="modal-contact-content">
+              <div class="modal-contact-title">タイトル1</div>
+              <div class="modal-contact-text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+              <div class="modal-contact-title">タイトル2</div>
+              <div class="modal-contact-text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+              <div class="modal-contact-title">タイトル3</div>
+              <div class="modal-contact-text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+              <div class="modal-contact-title">タイトル4</div>
+              <div class="modal-contact-text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+            </div>
+            <div class="modal-contact-button">
+              <a class="js-close-button" href="" data-target="sample-modal"
+                >閉じる</a
+              >
+            </div>
+            <div class="modal-contact-icon">
+              <a class="js-close-button" href="" data-target="sample-modal"
+                >✖️</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal-contact-background js-modal"
+          data-target="sample-modal2"
+        >
+          <div class="modal-contact">
+            <div class="modal-contact-head">見出し2</div>
+            <div class="modal-contact-content">
+              <div class="modal-contact-title">タイトル1</div>
+              <div class="modal-contact-text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+              <div class="modal-contact-title">タイトル2</div>
+              <div class="modal-contact-text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+              <div class="modal-contact-title">タイトル3</div>
+              <div class="modal-contact-text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+              <div class="modal-contact-title">タイトル4</div>
+              <div class="modal-contact-text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+            </div>
+            <div class="modal-contact-button">
+              <a class="js-close-button" href="" data-target="sample-modal"
+                >閉じる</a
+              >
+            </div>
+            <div class="modal-contact-icon">
+              <a class="js-close-button" href="" data-target="sample-modal"
+                >✖️</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal-contact-background js-modal"
+          data-target="sample-modal3"
+        >
+          <div class="modal-contact">
+            <div class="modal-contact-head">見出し3</div>
+            <div class="modal-contact-content">
+              <div class="modal-contact-title">タイトル1</div>
+              <div class="modal-contact-text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+              <div class="modal-contact-title">タイトル2</div>
+              <div class="modal-contact-text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+              <div class="modal-contact-title">タイトル3</div>
+              <div class="modal-contact-text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+              <div class="modal-contact-title">タイトル4</div>
+              <div class="modal-contact-text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+            </div>
+            <div class="modal-contact-button">
+              <a class="js-close-button" href="" data-target="sample-modal"
+                >閉じる</a
+              >
+            </div>
+            <div class="modal-contact-icon">
+              <a class="js-close-button" href="" data-target="sample-modal"
+                >✖️</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
