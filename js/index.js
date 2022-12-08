@@ -6,7 +6,7 @@ $(function () {
         dots:true,
         arrows:false,
         dotsClass: "slide-dots" //ここでclass名を変更する（デフォルトはslick-dots）
-    });
+    })
 
     $('#change_btn').click(function(){ /*changeColor_btnという名前の要素をクリックした時に*/
       $('#box').css({'color': '#0094d7'}) /*box要素の文字の色を変更します。*/
