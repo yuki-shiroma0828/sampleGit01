@@ -86,9 +86,6 @@ function bodyFixedOff() {
   }
 }
 });
-$(function(){
-  
-});
 
 
 
